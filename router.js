@@ -5,7 +5,7 @@
 
 // Routes
     router.get("/", (req, res) => {
-        res.send("Home");
+        res.render("home", {title: "Home"});
     });
 
     // Create

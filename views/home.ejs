@@ -1,3 +1,9 @@
 <%- include("./partials/header.ejs", {title}) %>
 
-<%- inculde("./partials/footer.ejs") %>
+<h1><%= title %></h1>
+
+<form action = "/board" method = "GET">
+    <button type = "submit">Create New Board</button>
+</form>
+
+<%- include("./partials/footer.ejs") %>
